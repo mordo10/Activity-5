@@ -1,0 +1,58 @@
+<%= form_for(@android) do |f| %>
+	<div class= "field">
+  	    <%= f.label :name %>
+  	    <%= f.text_field :name %>
+
+	</div>
+
+	<div class= "field">
+  	    <%= f.label :brand %>
+  	    <%= f.text_field :brand %>
+	</div>
+
+	<div class= "field">
+   	    <%= f.label :year %>
+  	    <%= f.text_field :year %>
+	</div>
+
+	<div class= "field">
+            <%= f.label :cam %>
+  	    <%= f.text_field :cam %>
+
+	</div>
+
+	<div class= "field">
+  	    <%= f.label :mpix %>>
+  	    <%= f.text_field :mpix %>
+	</div>
+
+	<div class= "field">
+  	    <%= f.label :storage %>
+  	    <%= f.text_field :storage %>
+	</div>
+
+	<div class= "field">
+            <%= f.label :sim %>
+  	    <%= f.text_field :sim %>
+	</div>
+
+	
+	<div class= "field">
+  	    <%= f.label :size %>
+  	    <%= f.text_field :size %>
+	</div>
+
+	<div class= "field">
+  	   <%= f.label :system %>
+  	   <%= f.text_field :system%>
+	</div>
+
+	<div class= "field">
+  	   <%= f.label :stock %>
+  	   <%= f.text_field :stock %>
+	</div>
+
+	<%= f.submit "Submit" %>
+
+<% end %>
+

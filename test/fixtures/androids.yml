@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  brand: MyString
+  year: 2019-05-31
+  cam: MyString
+  mpix: MyString
+  storage: MyString
+  sim: 1
+  sim: 1
+  size: MyString
+  system: MyString
+  stock: MyString
+
+two:
+  name: MyString
+  brand: MyString
+  year: 2019-05-31
+  cam: MyString
+  mpix: MyString
+  storage: MyString
+  sim: 1
+  sim: 1
+  size: MyString
+  system: MyString
+  stock: MyString

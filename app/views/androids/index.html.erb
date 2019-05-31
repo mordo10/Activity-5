@@ -1,0 +1,37 @@
+<h1>Android ng Bayan Inc.</h1>
+
+
+<table>
+  <thead>
+  <tr>
+     <th>Name</th>
+     <th>Brand</th>
+     <th>Year Released</th>
+     <th>Camera</th>
+     <th>Mpixels</th>
+     <th>Internal Storage</th>
+     <th>Number of Sim Slots</th>
+     <th>Screen Size</th>
+     <th>Operating System</th>
+     <th>Number of Stock</th>
+  </tr>
+  </thead>
+
+<tbody>
+  <% @androids.each do |android| %>
+  <tr>
+    <td><%= android.name %></td>
+    <td><%= android.brand %></td>
+    <td><%= android.year %></td>
+    <td><%= android.cam %></td>
+    <td><%= android.mpix %></td>
+    <td><%= android.storage %></td>
+    <td><%= android.sim %></td>
+    <td><%= android.size %></td>
+    <td><%= android.system %></td>
+    <td><%= android.stock %></td>
+
+  </tr>
+  <% end %>
+</tbody>
+</table>
